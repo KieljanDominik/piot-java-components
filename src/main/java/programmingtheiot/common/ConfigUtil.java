@@ -14,7 +14,7 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.apache.commons.configuration.*;
+ import org.apache.commons.configuration.*;
 
 /**
  * A simple utility wrapper around the Apache Commons
@@ -49,12 +49,12 @@ public class ConfigUtil
 	private String  configFileName = ConfigConst.DEFAULT_CONFIG_FILE_NAME;
 	
 	
-	// constructors
+	// constructors Creates a new instance of {@link HierarchichalINIConfiguration}.
 	
 	/**
 	 * Default (private).
 	 * 
-	 * Creates a new instance of {@link HierarchichalINIConfiguration}.
+	 *
 	 */
 	private ConfigUtil()
 	{
